@@ -4,6 +4,6 @@ Repositório a ser utilizado para o projeto da disciplina de paradigmas de progr
 
 # Informações do projeto
 
-* Aplicativo para dispositivos móveis (__mobile__)
+* Aplicativo para dispositivos móveis (_mobile_)
 * Tecnologias associadas: Dart, Flutter, SQLite 
 * Metodologia de Desenvolvimento: Cascata
