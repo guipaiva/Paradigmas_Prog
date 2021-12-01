@@ -4,6 +4,15 @@ Repositório a ser utilizado para o projeto da disciplina de paradigmas de progr
 
 # Informações do projeto
 
-* Aplicativo para dispositivos móveis (_mobile_)
-* Tecnologias associadas: Dart, Flutter, SQLite 
+## Tecnologias Utilizadas
+* Linguagem de programação Dart
+* Framework Flutter Web
+* Banco de dados Firebase
+
 * Metodologia de Desenvolvimento: Cascata
+
+## Atividades
+* Desenvolvimento da camada de apresentação (_frontend_)
+* Desenvolvimento da camada de modelos e negócio (_backend_)
+   * Projeto e desenvolvimento do banco de dados
+   * Implementação do consumo de APIs
