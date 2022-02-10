@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:footer/footer.dart';
+import 'package:verinews/pages/error_page.dart';
 import 'package:verinews/services/fact_api.dart';
 import 'package:verinews/utils/colors.dart';
 import 'package:verinews/utils/news_data.dart';
@@ -46,6 +47,9 @@ class ResultsPage extends StatelessWidget {
               future: FactCheckApi().fetchData(query: query.text),
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
+                  if (snapshot.data!.isEmpty) {
+                    return ErrorPage();
+                  }
                   return ListView.builder(
                     itemCount: snapshot.data?['claims'].length,
                     itemBuilder: (context, index) {
